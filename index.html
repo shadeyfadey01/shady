@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - EF5) 'D#D9'( 'D91(J)</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <header>
+        <div class="logo">
+            <i class="fas fa-gamepad"></i>
+            <span>GameZone</span>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#" class="active">'D1&J3J)</a></li>
+                <li><a href="#">'D#D9'(</a></li>
+                <li><a href="#">'DE3'(B'*</a></li>
+                <li><a href="#">'DE*,1</a></li>
+                <li><a href="#">'D/9E</a></li>
+            </ul>
+        </nav>
+        
+        <div class="auth-buttons">
+            <button id="loginBtn" class="btn btn-outline">
+                <i class="fas fa-sign-in-alt"></i> *3,JD 'D/.HD
+            </button>
+            <button id="registerBtn" class="btn btn-primary">
+                <i class="fas fa-user-plus"></i> %F4'! -3'(
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>#GD'K (C AJ 9'DE <span>GameZone</span></h1>
+                <p>EF5) 'D#D9'( 'D91(J) 'D#HDI E9 F8'E /A9 "EF H31J9</p>
+                <div class="hero-buttons">
+                    <button id="exploreBtn" class="btn btn-large">
+                        <i class="fas fa-compass"></i> '3*C4A 'D#D9'(
+                    </button>
+                    <button id="depositBtn" class="btn btn-large btn-accent">
+                        <i class="fas fa-coins"></i> %J/'9 15J/
+                    </button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://cdn-icons-png.flaticon.com/512/3612/3612569.png" alt="Gaming">
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <i class="fas fa-bolt"></i>
+                <h3>#D9'( 31J9)</h3>
+                <p>'3*E*9 (#A6D 'D#D9'( (#/'! 9'DJ H319) A'&B)</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>"EF *E'E'K</h3>
+                <p>E9'ED'* E'DJ) "EF) H-E'J) DD(J'F'*</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-wallet"></i>
+                <h3>/A9 3GD</h3>
+                <p>%J/'9 H3-( (15J/ 9(1 AH/'AHF C'4 H#H1F, C'4</p>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <h2>'D#D9'( 'D4'&9)</h2>
+            <div class="games-grid" id="gamesGrid">
+                <!-- 3J*E ED$G ('D,'A'3C1(* -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>GameZone</h3>
+                <p>EF5) 'D#D9'( 'D91(J) 'D#HDI 'D*J *HA1 *,1() D9( EE*9) H"EF) E9 F8'E /A9 E*C'ED.</p>
+            </div>
+            <div class="footer-section">
+                <h3>1H'(7 31J9)</h3>
+                <ul>
+                    <li><a href="#">'D41H7 H'D#-C'E</a></li>
+                    <li><a href="#">3J'3) 'D.5H5J)</a></li>
+                    <li><a href="#">'D#3&D) 'D4'&9)</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>71B 'D/A9</h3>
+                <div class="payment-methods">
+                    <img src="https://logo.clearbit.com/vodafone.com" alt="Vodafone Cash">
+                    <img src="https://logo.clearbit.com/orange.com" alt="Orange Cash">
+                    <img src="https://logo.clearbit.com/paypal.com" alt="PayPal">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 GameZone. ,EJ9 'D-BHB E-AH8).</p>
+        </div>
+    </footer>
+
+    <!-- FE'0, (EH/JD'*) -->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-sign-in-alt"></i> *3,JD 'D/.HD</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">'D(1J/ 'D%DC*1HFJ</label>
+                    <input type="email" id="loginEmail" required placeholder="#/.D (1J/C 'D%DC*1HFJ">
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">CDE) 'DE1H1</label>
+                    <input type="password" id="loginPassword" required placeholder="#/.D CDE) 'DE1H1">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fas fa-sign-in-alt"></i> *3,JD 'D/.HD
+                </button>
+            </form>
+            <div class="auth-footer">
+                <p>DJ3 D/JC -3'( <a href="#" id="switchToRegister">%F4'! -3'( ,/J/</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-user-plus"></i> %F4'! -3'( ,/J/</h2>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="regUsername">'3E 'DE3*./E</label>
+                    <input type="text" id="regUsername" required placeholder="'.*1 '3E E3*./E">
+                </div>
+                <div class="form-group">
+                    <label for="regEmail">'D(1J/ 'D%DC*1HFJ</label>
+                    <input type="email" id="regEmail" required placeholder="#/.D (1J/C 'D%DC*1HFJ">
+                </div>
+                <div class="form-group">
+                    <label for="regPassword">CDE) 'DE1H1</label>
+                    <input type="password" id="regPassword" required placeholder="'.*1 CDE) E1H1 BHJ)">
+                </div>
+                <div class="form-group">
+                    <label for="regConfirmPassword">*#CJ/ CDE) 'DE1H1</label>
+                    <input type="password" id="regConfirmPassword" required placeholder="#9/ %/.'D CDE) 'DE1H1">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fas fa-user-plus"></i> %F4'! -3'(
+                </button>
+            </form>
+            <div class="auth-footer">
+                <p>D/JC -3'( ('DA9D <a href="#" id="switchToLogin">*3,JD 'D/.HD</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="depositModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-coins"></i> %J/'9 15J/</h2>
+            <form id="depositForm">
+                <div class="form-group">
+                    <label for="depositAmount">'DE(D: (,FJG E51J)</label>
+                    <input type="number" id="depositAmount" min="10" required placeholder="#/.D 'DE(D:">
+                </div>
+                
+                <div class="form-group">
+                    <label>71JB) 'D/A9</label>
+                    <div class="payment-options">
+                        <div class="payment-option active" data-method="vodafone">
+                            <img src="https://logo.clearbit.com/vodafone.com" alt="Vodafone Cash">
+                            <span>AH/'AHF C'4</span>
+                        </div>
+                        <div class="payment-option" data-method="orange">
+                            <img src="https://logo.clearbit.com/orange.com" alt="Orange Cash">
+                            <span>#H1F, C'4</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group" id="paymentDetails">
+                    <label for="phoneNumber">1BE 'DG'*A</label>
+                    <input type="text" id="phoneNumber" required placeholder="#/.D 1BE 'DG'*A">
+                </div>
+                
+                <button type="submit" class="btn btn-accent btn-block">
+                    <i class="fas fa-check-circle"></i> *#CJ/ 'D%J/'9
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="withdrawModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2><i class="fas fa-money-bill-wave"></i> 3-( 15J/</h2>
+            <form id="withdrawForm">
+                <div class="balance-info">
+                    <p>'D15J/ 'DE*'-: <span id="currentBalance">0</span> ,FJG</p>
+                </div>
+                
+                <div class="form-group">
+                    <label for="withdrawAmount">'DE(D: (,FJG E51J)</label>
+                    <input type="number" id="withdrawAmount" min="20" required placeholder="#/.D 'DE(D:">
+                </div>
+                
+                <div class="form-group">
+                    <label>71JB) 'D3-(</label>
+                    <div class="payment-options">
+                        <div class="payment-option active" data-method="vodafone">
+                            <img src="https://logo.clearbit.com/vodafone.com" alt="Vodafone Cash">
+                            <span>AH/'AHF C'4</span>
+                        </div>
+                        <div class="payment-option" data-method="orange">
+                            <img src="https://logo.clearbit.com/orange.com" alt="Orange Cash">
+                            <span>#H1F, C'4</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="withdrawPhone">1BE 'DG'*A</label>
+                    <input type="text" id="withdrawPhone" required placeholder="#/.D 1BE 'DG'*A">
+                </div>
+                
+                <button type="submit" class="btn btn-accent btn-block">
+                    <i class="fas fa-paper-plane"></i> 7D( 'D3-(
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<section class="payment-section">
+    <h2>%J/'9 'D#EH'D</h2>
+    <div class="payment-methods">
+        <div class="payment-method" onclick="selectPaymentMethod('paypal')">
+            <img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal">
+        </div>
+        <div class="payment-method" onclick="selectPaymentMethod('stripe')">
+            <img src="https://stripe.com/img/v3/home/social.png" alt="Stripe">
+        </div>
+    </div>
+    
+    <div class="payment-form" id="paymentForm" style="display: none;">
+        <button onclick="processDeposit()">*#CJ/ 'D%J/'9</button>
+    </div>
+</section>
+<div class="verification-modal" id="verificationModal">
+    <div class="modal-content">
+        <h2>'D*-BB EF 'DGHJ) H'D9E1</h2>
+        <p>DDE4'1C) AJ 'D#D9'( J,( 'D*-BB EF #F 9E1C AHB 18 3F)</p>
+        
+        <form id="verificationForm">
+            <div class="form-group">
+                <label for="fullName">'D'3E 'DC'ED</label>
+                <input type="text" id="fullName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="birthDate">*'1J. 'DEJD'/</label>
+                <input type="date" id="birthDate" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="idDocument">H+JB) 'DGHJ) (5H1))</label>
+                <input type="file" id="idDocument" accept="image/*" required>
+            </div>
+            
+            <button type="submit">%13'D DD*-BB</button>
+        </form>
+    </div>
+</div>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F8'E 'D/A9 - EF5) 'D#D9'(</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- %6'A) Stripe.js -->
+    <script src="https://js.stripe.com/v3/"></script>
+</head>
+<body>
+    <!-- ... 'DE-*HI 'D-'DJ ... -->
+
+    <section class="payment-section">
+        <h2>%J/'9 'D#EH'D</h2>
+        
+        <div class="payment-form">
+            <div class="form-group">
+                <label for="card-element">E9DHE'* 'D(7'B)</label>
+                <div id="card-element" class="stripe-card-input"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="deposit-amount">'DE(D: (/HD'1)</label>
+                <input type="number" id="deposit-amount" min="10" value="50">
+            </div>
+            
+            <button id="submit-payment">/A9 'D"F</button>
+            <div id="payment-message" class="hidden"></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
